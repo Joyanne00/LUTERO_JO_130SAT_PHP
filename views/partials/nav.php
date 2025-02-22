@@ -10,6 +10,7 @@
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="<?= urlIS('/') ? 'bg-gray-900 textt-white' : 'text-gray-300'; ?> hover:bg-gray-700 px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
               <a href="/about.php" class="<?= $_SERVER['REQUEST_URI'] === '/about.php' ? 'bg-gray-900 textt-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white">About</a>
+              <a href="/notes" class="<?= urlIs('/notes') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Notes</a>
               <a href="/contact.php" class="<?= $_SERVER['REQUEST_URI'] === '/contact.php' ? 'bg-gray-900 textt-white' : 'text-gray-300'; ?> hover:bg-gray-700 hover:text-white">Contact</a>
             </div>
           </div>
